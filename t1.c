@@ -4,7 +4,9 @@ int main(){
     int a=10,b=20;
     printf("sum: %d",a+b);
   }
-  sub();
+  sub(){
+	  printf("subtraction: %d",a-b);
+  }
   mul();
   div();
 }
